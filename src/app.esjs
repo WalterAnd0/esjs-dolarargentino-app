@@ -26,7 +26,7 @@ asincrono funcion inicio() {
 
 asincrono funcion mostrarCotizacion() {
   const dolarBlue = esperar obtenerJson ("https://dolarapi.com/v1/dolares/blue")
-  Terminal.escribir ("Cotizacion de DOlar Blue")
+  Terminal.escribir ("Cotizacion de Dolar Blue")
   Terminal.escribir ("compra $" + dolarBlue.compra)
   Terminal.escribir ("venta $" + dolarBlue.venta)
   Terminal.escribir (dolarBlue.fechaActualizacion)
